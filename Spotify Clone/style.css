@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo&family=Raleway&family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Macondo&family=Raleway&family=Source+Sans+Pro&display=swap");
+body {
+  background-color: antiquewhite;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  font-family: "Source Sans Pro", Bebas Neue;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 69px;
+  background-color: black;
+  color: white;
+}
+.brand img {
+  width: 60px;
+  padding: 0 8px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+nav ul li {
+  padding: 0 12px;
+}
+.container {
+  min-height: 60vh;
+  background-color: black;
+  color: white;
+  font-family: "Bebas Neue";
+  display: flex;
+  width: 75%;
+  margin: 15px auto;
+  border-radius: 12px;
+  padding: 34px;
+  margin-bottom: 20px auto;
+  background-image: url("bg.jpg");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+}
+.bottom {
+  background-color: black;
+  position: sticky;
+  height: 70px;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+#myProgressBar {
+  width: 90vw;
+  text-align: center;
+  cursor: pointer;
+}
+.icons {
+  margin-top: 15px;
+}
+.icons i {
+  cursor: pointer;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.songItemContainer {
+  margin-top: 5px;
+}
+.songItem {
+  height: 50px;
+  display: flex;
+  background-color: white;
+  width: 90%;
+  color: black;
+  margin: 12px 0px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.songItem img {
+  width: 48px;
+  margin: 2px 4px;
+  border-radius: 10px;
+}
+
+.timeStamp {
+  padding-right: 30px;
+}
+
+.timeStamp i {
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.songInfo {
+  position: absolute;
+  left: 3.5vw;
+  margin: 5px 14px;
+  font-family: "Source Sans Pro";
+}
+
+.songInfo img {
+  width: 50px;
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+}
